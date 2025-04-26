@@ -103,7 +103,7 @@ import RainBackground from './rainBackground.vue';
     methods:{
     async EnviarEmail(){
         try{
-            const res = await fetch('/api/server.js',{
+            const res = await fetch('/api/server',{
                 method:'POST',
                 headers:{
                     'Content-Type': 'application/json'
