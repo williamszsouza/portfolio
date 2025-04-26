@@ -1,5 +1,40 @@
-# Vue 3 + Vite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+---
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## 🌌 Sobre o projeto
+
+Este portfólio tem como temática o **espaço sideral**, representando a minha constante busca por novos conhecimentos, tecnologias e oportunidades.  
+É um projeto pessoal feito com 💙, onde compartilho:
+
+- Quem sou
+- Meus projetos mais relevantes
+- Minhas habilidades técnicas
+- E uma forma direta de entrar em contato comigo
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Vue.js** – Frontend responsivo e moderno
+- **Vite** – Para um build rápido e leve
+- **Nodemailer + Mailtrap** – Para envio seguro de e-mails via API
+- **CSS3** – Com estilo espacial ✨
+- **Vercel** – Hospedagem do projeto
+
+---
+
+## ✉️ API de Contato
+
+Se alguém quiser falar comigo, basta preencher o formulário de contato. Os dados são enviados para uma **API Serverless** que usa o **Nodemailer** com o **Mailtrap** para teste de envio.
+
+### 📬 Exemplo de requisição:
+
+```bash
+POST /api/enviar-email
+Content-Type: application/json
+
+{
+  "nome": "Neil Armstrong",
+  "email": "neil@nasa.gov",
+  "mensagem": "Gostei do seu trabalho, vamos conversar!"
+}
