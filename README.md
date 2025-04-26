@@ -1,7 +1,3 @@
-# 🧑‍🚀 Portfolio Espacial – William Souza
-
-Bem-vindo(a) ao **meu universo pessoal**, onde apresento minhas habilidades, projetos e paixões — tudo ambientado em uma atmosfera cósmica! 🚀✨  
-Este é meu **portfólio online**, desenvolvido com Vue.js e integrado a uma **API de envio de e-mails**, permitindo que qualquer terráqueo entre em contato comigo com apenas alguns cliques.
 
 ---
 
