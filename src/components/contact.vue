@@ -1,7 +1,7 @@
 <template>
 <section class="rain-section">
 <RainBackground></RainBackground>
-<div id="container"">
+<div id="container">
     <h1>Gostou do que viu?<br>Entre em contato!</h1>
     <div id="form">
         <form @submit.prevent="EnviarEmail">
@@ -103,7 +103,7 @@ import RainBackground from './rainBackground.vue';
     methods:{
     async EnviarEmail(){
         try{
-            const res = await fetch('http://localhost:3000/enviar-email',{
+            const res = await fetch('/api/server.js',{
                 method:'POST',
                 headers:{
                     'Content-Type': 'application/json'
