@@ -19,11 +19,11 @@ export default {
     this.resizeCanvas();
     this.initRain();
 
-    // Corrige o "this" e inicia a animação
+    
     this.animateRain = this.animateRain.bind(this);
     this.animateRain();
 
-    // Resize listener
+   
     window.addEventListener('resize', this.resizeCanvas);
   },
   beforeUnmount() {
